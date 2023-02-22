@@ -34,5 +34,7 @@ func main() {
 	if err != nil {
 		log.Fatalln(err)
 	}
+
 	fmt.Println(resp.Choices[0].Text)
+
 }
